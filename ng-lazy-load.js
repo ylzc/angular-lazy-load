@@ -2,7 +2,7 @@
 
     function factory(angular) {
 
-        var VERSION = '1.2.0';
+        var VERSION = '1.3.0';
 
         // Support require.js, sea.js, system.js
         var amdRequire = (function () {
