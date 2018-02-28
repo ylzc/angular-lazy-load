@@ -1,0 +1,22 @@
+{
+  "name": "angular-lazy-load",
+  "homepage": "https://github.com/ylzc/angular-lazy-load",
+  "authors": [
+    "yel <yel@sucsoft.com>"
+  ],
+  "description": "",
+  "main": "angular-lazy-load.js",
+  "keywords": [
+    "oc.lazyload",
+    "angular-ui-router",
+    "requirejs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
