@@ -4,9 +4,9 @@
   "authors": [
     "yeli19950109 <631300329@qq.com>"
   ],
-  "version":"1.4.0",
+  "version":"1.4.1",
   "description": "",
-  "main": "ng-lazy-load.js",
+  "main": "ng1-lazy-load.js",
   "keywords": [
     "oc.lazyload",
     "angular-ui-router",
