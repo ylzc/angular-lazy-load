@@ -4,6 +4,7 @@
   "authors": [
     "yel <yel@sucsoft.com>"
   ],
+  "version":"1.0.0",
   "description": "",
   "main": "angular-lazy-load.js",
   "keywords": [
