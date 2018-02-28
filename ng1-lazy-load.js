@@ -2,7 +2,7 @@
 
     function factory(angular) {
 
-        var VERSION = '1.4.1';
+        var VERSION = '1.4.2';
 
         // Support require.js, sea.js, system.js
         var amdRequire = (function () {
@@ -209,7 +209,7 @@
      * @exports
      */
     if (typeof(define) === 'function' && define.amd) {
-        define(['angular','oc.lazyload'], function (angular) {
+        define(['angular','oc.lazyLoad'], function (angular) {
             return factory(angular);
         });
     } else {
