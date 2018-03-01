@@ -2,7 +2,7 @@
 
     function factory(angular) {
 
-        var VERSION = '1.4.3';
+        var VERSION = '1.4.4';
 
         // Support require.js, sea.js, system.js
         var amdRequire = (function () {
@@ -151,6 +151,11 @@
                         $filterProvider.register(name, filter);
                         return app;
                     };
+
+                    app.component = function (name,component) {
+                        $compileProvider.component(name, component);
+                        return app;
+                    }
 
                     app.directive = function (name, directive) {
                         $compileProvider.directive(name, directive);
