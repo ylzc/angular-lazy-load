@@ -1,0 +1,1 @@
+export * from "./ng1-lazy-load.js";
